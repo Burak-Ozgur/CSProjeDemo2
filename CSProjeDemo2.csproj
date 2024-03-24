@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataFiles\PersonnelData\AyseYilmaz\" />
+    <Folder Include="DataFiles\PersonnelData\MehmetKaya\" />
+    <Folder Include="DataFiles\PersonnelData\ElifDemir\" />
+    <Folder Include="DataFiles\PersonnelData\EmreAktas\" />
+    <Folder Include="DataFiles\PersonnelData\BurakAydin\" />
+    <Folder Include="DataFiles\PersonnelData\CemreSahin\" />
+    <Folder Include="DataFiles\PersonnelData\SelinCan\" />
+    <Folder Include="DataFiles\PersonnelData\SedaYildirim\" />
+  </ItemGroup>
+
+</Project>
